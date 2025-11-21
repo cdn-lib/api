@@ -2,13 +2,13 @@
   "name": "otakudesu-api",
   "version": "0.0.1",
   "description": "Unofficial otakudesu api",
-  "main": "functions/api.js",
+  "main": "index.js",
   "repository": "https://github.com/rzkfyn/otakudesu-api",
   "author": "rzkfyn",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon functions/api.js",
-    "start": "node functions/api.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "dependencies": {
     "axios": "^1.6.0",
@@ -16,8 +16,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.21.0",
-    "gofile-downloader": "^0.0.2",
-    "serverless-http": "^3.2.0"
+    "gofile-downloader": "^0.0.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
